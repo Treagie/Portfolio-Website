@@ -9,6 +9,24 @@
 #two {
 	background-color:purple;
 } */
+#Hannah {
+	color: #330C2F;
+	text-align:center;
+	border: 2px solid #330C2F;
+	margin-top:0px;
+	padding: 80px;
+	background-image: url(http://www.baltana.com/files/wallpapers-5/Paint-Background-HD-Wallpaper-16472.jpg);
+	background-size: cover;
+	font-family: 'Comfortaa', cursive;
+}
+
+#Hannah h1 {
+	font-size: 50px;
+}
+
+#Hannah h5 {
+	font-size: 25px;
+}
 
 img {
 	width: 30%;
@@ -20,9 +38,9 @@ p {
 	font-family: raleway;
 	margin-left: 1.66%;
 	font-size: 23px;
-	font-weight: 800;
+	font-weight: 400;
 	text-transform: uppercase;
 	border-bottom: 2px solid #f1f1f1;
-	width: 30%;
+	width: 63.32%;
 	padding-bottom: 20px;
 }
