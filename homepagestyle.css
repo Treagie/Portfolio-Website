@@ -1,19 +1,30 @@
-#Hannah {
-	color: #330C2F;
+.Hannah {	
+	border-bottom: 2px solid #330C2F;
+	margin-top:35px;
+	padding: 150px;
+	background-image: url(https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe7f49e1afe954728c7fc6855773ac86&auto=format&fit=crop&w=1350&q=80);
+	
+
+	color: #ff6600;
 	text-align:center;
-	border: 2px solid #330C2F;
-	margin-top:0px;
-	padding: 80px;
-	background-image: url(http://www.baltana.com/files/wallpapers-5/Paint-Background-HD-Wallpaper-16472.jpg);
-	background-size: cover;
 	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px black;
 }
 
-#Hannah h1 {
+#title {
 	font-size: 50px;
 }
 
-#Hannah h5 {
+.Hannah #subtitle {
 	font-size: 25px;
 }
 
+#navbar {
+	background-color: ;
+}
+
+
+
+
+/* Potential header image: http://www.baltana.com/files/wallpapers-5/Paint-Background-HD-Wallpaper-16472.jpg*/
