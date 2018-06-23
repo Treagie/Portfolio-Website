@@ -11,11 +11,12 @@
 	<!--Font Awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
+
 <body>
+
 <!--Bootstrap navbar-->
-<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -23,28 +24,58 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><i class="far fa-hand-peace"></i>  Hannah</a>
+      <a id="nav-buttons-brand" class="navbar-brand" href="#"><i class="far fa-hand-peace"></i>  Hannah</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-   <div class="container"
+<!-- Collect the nav links, forms, and other content for toggling -->
+   <div id="nav-buttons" class="container">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Photography</a></li>
-        <li><a href="#">Contact</a></li>
+        <li id="nav-button-home" class="active"><a href="#"><i class="fas fa-home"></i>  Home <span class="sr-only">(current)</span></a></li>
+        <li><a id="nav-button-portfolio" href="#"><i class="far fa-folder-open"></i>  Portfolio</a></li>
+        <li><a id="nav-button-photos" href="#"><i class="fas fa-camera-retro"></i>  Photography</a></li>
+        <li><a id="nav-button-contact" href="#"><i class="fas fa-mobile-alt"></i>  Contact</a></li>
+      </ul>
+
+      <ul id="social-media" class="nav navbar-nav navbar-right">
+<!--Social media links designed to open in new tab-->
+      	<li><a target="_blank" id="twitter" href="https://twitter.com/Hannisburg"><i class="fab fa-twitter"></i></a></li>
+      	<li><a target="_blank" id="instagram" href="https://www.instagram.com/hannisburg/?hl=en"><i class="fab fa-instagram"></i></a></li>
+      	<li><a target="_blank" id="linked-in" href="https://www.linkedin.com/in/hannah-treagus-41763a154/"><i class="fab fa-linkedin"></i></a></li>
+      	<li><a target="_blank" id="github" href="https://github.com/Treagie"><i class="fab fa-github"></i></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</div>
 
-<!--Page header-->
-	<div class="Hannah">
+<!--Page header: opted not to use in favour of jumbotron-->
+	<!--<div class="Hannah">
 		<h1 id="title">Hannah Treagus</h1>
 		<h5 id="subtitle">Aspiring Full Stack Developer</h5>
+	</div>-->
+
+<!--Bootstrap Jumbotron-->
+
+	<div id="jumbotron" class="jumbotron">
+	  <h1 id="Hannah">Hannah Treagus</h1>
+	  <p id="subtitle">Aspiring Full Stack Developer</p>
+	  <p><a class="btn btn-primary btn-lg" href="mail-to: htreagus@gmail.com" role="button">Say hello!</a></p>
 	</div>
 
+<!--CSS grid: Portfolio-->
+<!--<div class="container"> Left out and used margin in CSS instead; cleaner-->
+	<div class="grid-portfolio">	
+		<div class="grid-item-1">
+			<h3>About me</h3>
+			<p>Hi, I'm Hannah and I'm an aspiring full stack developer from the UK. I am currently living in Oxford but have plans to move back to Bristol in the very near future. I began coding earlier this year and quickly became obsessed with coding on a daily basis. My progress can be viewed via my <strong><a href="http://www.twitter.com/hannisburg">Twitter</a></strong> feed where I'm taking part in the #100DaysOfCode challenge and enjoy participating in the #CodeNewbie community! Outside of coding, my interests include cooking, films, exploring new
+			places, and spending time with my boyfriend, family and friends.</p>
+		</div>
+		<div class="grid-item-2">
+			<img class="photo-me" src="https://lh3.googleusercontent.com/YhcC2qHgnIyOFA9OJPS205HKifsyqGV-fuJ7S1vd-RxIG7Uwxvn_l9XtI3kS7BcweGoKMPAWDffMCcB5GaZxz14R1FaQFbsLEls1EJi8WbOEmTL6oc512YVfEMfZhioFsqNjtTkRbDnLkUA35vkqCpg-Bh0oEWwCGhbLrkhtcy2CfjN1qWtFiftJN2i3yBnxzUxw-LHJySNOrLeK1uGyP1mgaIGHmwm6hJxsbWqXX7IslL8o6AAuEfUUPslq7i41h0ckGiiBxsCajyJLZfw8L2S_q8QqInoXO0PF3_IpAA_351yxtye1A5gkxpNEiWTp8tdjCYgLpm88yyCtrGWR7NxuMk42vRYbJl6p7XpBrFlAh4HzbDrFyEI4mEmnRTFlPUJXv6xgZ1mbY1q7_5XXlR5mCFPW-tbroxWN9awrTZCu1MO7bxaZVDysnBRWT-hV8JKEiMmyGYqcM2-vxyWArTiSngHBTsjpcL_EaP7U8thP7-BJn_GQYINK1aDUd-oGoYwQIMhEDjcyj4xrE5lNPQ1c0hox2TS_4Xfop1nl2Ds7bh2foqjgZ8j5sFu00cEn4wHTfPoyNyhWSPnlXm6onyZNrDVw3-3sJh9PoxsR=s1224-no">
+		</div>		
+	</div>
+<!--</div>-->
 	
 <!--jQuery & JavaScript Bootstrap CDN code-->
 <script

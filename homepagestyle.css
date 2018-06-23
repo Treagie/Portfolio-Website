@@ -1,29 +1,121 @@
-.Hannah {	
+/*.Hannah {	
 	border-bottom: 2px solid #330C2F;
 	margin-top:35px;
 	padding: 150px;
 	background-image: url(https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe7f49e1afe954728c7fc6855773ac86&auto=format&fit=crop&w=1350&q=80);
 	
 
-	color: #ff6600;
-	text-align:center;
+	color: #660066;
+	text-align:left;
 	font-family: 'Comfortaa', cursive;
 	font-weight: 700;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 2px 2px 2px black;
 }
 
 #title {
 	font-size: 50px;
+	margin-top: 50px;
 }
 
-.Hannah #subtitle {
+#subtitle {
 	font-size: 25px;
+*/
+body {
+	overflow-x: hidden;
 }
 
-#navbar {
-	background-color: ;
+/* Navbar styles */
+nav.navbar.navbar-default.navbar-fixed-top {
+    background-color: #d6e5e3;
+    border-color: #2d3319;
 }
 
+#nav-button-home,
+#nav-button-portfolio,
+#nav-button-photos,
+#nav-button-contact,
+#nav-buttons-brand,
+#nav-buttons,
+.fas.fa-home,
+.far.fa-folder-open,
+.fas.fa-camera-retro,
+.fas.fa-mobile-alt, 
+#twitter,
+#linked-in,
+#instagram,
+#github {
+	color: #517664;
+	font-size: 18px;
+}
+
+/* Jumbotron styles */
+#jumbotron {
+	max-width: auto;
+	min-width: auto;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe7f49e1afe954728c7fc6855773ac86&auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+	border-bottom: 2px solid #2d3319;
+
+	color: #2d3319;
+	text-align:left;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	
+}
+
+#jumbotron h1 {
+	text-shadow: 1px 1px 2px #d6e5e3;
+}
+
+.btn.btn-primary.btn-lg {
+	background-color: #d6e5e3;
+	color: #517664;
+	border: 2px solid #2d3319;
+}
+
+/* About Me Grid Styles */
+.grid-portfolio {
+	display: grid;
+	max-width: auto;
+	min-width: auto;
+	height: auto;
+	grid-template-rows: 100%;
+	grid-template-columns: 70% 30%;
+}
+
+.grid-item-1 {
+	margin-left: 75px;
+}
+
+.grid-item-1 h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+
+.grid-item-1 p {
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	padding-right: 20px;
+	text-align: justify;
+
+}
+
+.grid-item-1 p a {
+	color: #517664;
+}
+
+.grid-item-2 img {
+	width: 210px;
+	height: 210px;
+	border-radius: 50%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	border: 2px solid #2d3319;
+}
 
 
 
