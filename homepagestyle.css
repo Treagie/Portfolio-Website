@@ -1,3 +1,4 @@
+/* Old code - I opted not to use this */
 /*.Hannah {	
 	border-bottom: 2px solid #330C2F;
 	margin-top:35px;
@@ -20,6 +21,7 @@
 #subtitle {
 	font-size: 25px;
 */
+
 body {
 	overflow-x: hidden;
 }
@@ -28,6 +30,10 @@ body {
 nav.navbar.navbar-default.navbar-fixed-top {
     background-color: #d6e5e3;
     border-color: #2d3319;
+}
+
+. {
+	color: white;
 }
 
 #nav-button-home,
@@ -70,7 +76,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	text-shadow: 1px 1px 2px #d6e5e3;
 }
 
-.btn.btn-primary.btn-lg {
+#button {
 	background-color: #d6e5e3;
 	color: #517664;
 	border: 2px solid #2d3319;
@@ -100,7 +106,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	font-size: 15px;
 	padding-right: 20px;
 	text-align: justify;
-
 }
 
 .grid-item-1 p a {
@@ -116,6 +121,32 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	margin-top: 20px;
 	border: 2px solid #2d3319;
 }
+
+/* Photos */
+.photo-grid h3 {
+	margin-left: 75px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+
+.photo-grid p {
+	margin-left: 75px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+
+.photo-grid p a {
+	color: #517664;
+}
+
+.photo-grid img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	border: 2px solid #2d3319;
+}
+
+
 
 
 
